@@ -1,0 +1,10 @@
+
+
+O(1) -> constant time -> 
+
+
+for(int i=0;i<5 ;i++){
+
+}
+
+3. O(n) linear time -> the time grows directly praportional to input size 
