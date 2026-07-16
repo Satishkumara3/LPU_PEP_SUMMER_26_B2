@@ -8,3 +8,6 @@ Leaf: A node with no children, residing at the bottom-most level of a tree branc
 Subtree: A tree structure formed by treating a child node as a root node itself.
 Height: The number of edges on the longest downward path from a node to a leaf.
 Depth: The number of edges from the root to a node.
+
+
+// count number of nodes
