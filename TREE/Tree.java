@@ -58,6 +58,11 @@ public class Tree {
 
 
     }
+
+    public static int Sum(Node root){
+        if(root==null) return 0;
+        return  root.val+Sum(root.left)+Sum(root.right);
+    }
     public static void main(String[] args) {
 
         Node root = new Node(10);
@@ -86,6 +91,9 @@ public class Tree {
         System.out.println( Countleaf(root));
 
         int height=Height(root);
+
+
+        System.out.println(Sum(root,0));
 
 
 
