@@ -12,4 +12,4 @@ Depth: The number of edges from the root to a node.
 
 // count number of nodes
 // zig zag traversal 
-//  level order traversal
+//  level order travers
