@@ -8,9 +8,9 @@ public class Graph {
        
         Scanner sc=new Scanner(System.in);
         System.out.println("eneter the number of nodes ");
-        int n=sc.nextInt() ;// number of vertices
+        int n=sc.nextInt() ;// no of vertices
         System.out.println("eneter the number of edges ");
-        int m=sc.nextInt() ;// number of edges
+        int m=sc.nextInt() ;// no of edges
 
         HashMap<Integer,List<Integer>> mp=new HashMap<>();
         for(int i=0;i<n;i++){
