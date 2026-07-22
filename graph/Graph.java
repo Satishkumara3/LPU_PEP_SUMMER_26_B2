@@ -43,7 +43,6 @@ public class Graph {
             for(int j=0;j<ls.size();j++){
                 System.out.print(ls.get(j)+" ");
             }
-            System.out.print("\n");
 
         }
 
